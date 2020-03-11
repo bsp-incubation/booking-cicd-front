@@ -6,5 +6,5 @@ aws deploy create-deployment \
     --application-name Devops_front \
     --deployment-config-name CodeDeployDefault.AllAtOnce \
     --deployment-group-name $DG \
-    --s3-location bundleType="tar",bucket="landingproject",key=back.tar \
+    --s3-location bundleType="tar",bucket="landingproject",key=front.tar \
     --file-exists-behavior "OVERWRITE"
